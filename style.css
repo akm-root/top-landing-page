@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+.section-1 {
+  background-color: rgb(33, 41, 54);
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px 50px;
+  gap: 100px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero {
+  display: flex;
+  color: white;
+  gap: 100px;
+  justify-content: space-between;
+}
+
+.hero-image {
+  max-height: 250px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.hero button {
+  color: white;
+  background-color: #3882f6;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.hero button:hover {
+  background-color: #0062ff;
+}
+
+.hero-description {
+  padding: 10px 0 20px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.section-2 {
+  padding: 75px 50px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+}
+
+.card {
+  width: 100px;
+  margin: 10px;
+}
+
+.card .placeholder {
+  height: 100px;
+  background-color: #e5e7eb;
+  border-radius: 10px;
+  border: 2px solid blue;
+}
+
+.card .content {
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.section-3 {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 200px 100px;
+  gap: 30px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.author {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 75px 100px;
+}
+
+.blue-box {
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 50px 75px;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.cta {
+  color: white;
+}
+
+.heading {
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.signup {
+  color: white;
+  border: none;
+  background-color: transparent;
+  border: solid 1px white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.signup:hover {
+  background-color: white;
+  color: #3882f6;
+}
+
+.footer {
+  background-color: rgb(33, 41, 54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  padding: 20px 0;
+}
